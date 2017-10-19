@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>UCC | University of Caloocan City</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="University of Caloocan City Website" />
+<meta name="UCC Web Team Developer" content="University of Caloocan City" />
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/jquery.lightbox.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<style>
+.hover_list{padding:5px;}
+.hover_list:hover{ color:white; background:#fd7f04;font:bold}
+</style>
+</head>
+<body>
+<!-- header -->
+<header>
+    <div class="container"  >
+        <div class="row">
+            <div class="col-md-5 col-sm-6" >
+                <a href="#" id="logo"><img src="ucc/images/logo.png" alt="UCC"></a>
+            </div>
+            <div class="col-md-3 hidden-xs"></div>
+            <div class="col-xs-3 col-xs-offset-20 visible-xs">
+                <a href="#" id="mobile_menu"><span class="glyphicon glyphicon-align-justify"></span></a>
+            </div>
+            <div class="col-xs-24 visible-xs" id="mobile_menu_list">
+                <ul>
+                    <li><a href="#slideshow">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#administration">Officials</a></li>
+                    <li><a href="#about">About</a></li>
+                 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-16 col-sm-18 hidden-xs" id="nav-bar">
+                <ul class="nav navbar-right">
+                    <li><a href="#slideshow">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#administration">Officials</a></li>
+                    <li><a href="#academics">Academics</a></li>                 
+                    <li><a href="#about">About</a></li>               
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end of header -->
+<section id="slideshow">
+    <div class="container">
+        <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li class="row">
+                <img src="ucc/images/collegeoflaw.png"  />   
+            </li>
+			 <li class="row">
+                <img src="ucc/image/let_passers_march2017.png"  /> 
+            </li>
+        	<li class="row">
+                <img src="ucc/images/cpa_banner.png"  />   
+            </li>
+             <li class="row">
+                <img src="ucc/images/crim.png"/>
+            </li>
+            <li class="row">
+                <img src="ucc/images/let_passer_2017.png"/>
+            </li>
+             <li class="row">
+                <img src="ucc/images/Psychomet_Slider.png"  /> 
+            </li>
+             <li class="row">
+                <img src="ucc/images/IT_Literacy.png" />               
+            </li>
+            <!--  <li class="row">
+                <img src="images/Slider/TOP_20_Finalist.png"  />               
+            </li>-->
+           
+         </ul>
+        </div><!-- end of main-slider -->
+    </div>	
+</section><!-- end of slideshow -->
+<!-- solid line -->
+<div class="container">
+    <div class="solidline"></div>
+</div>
+<section id="news">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5" >
+            <h4 onclick="window.open('http://112.199.44.162/ucc/registrar/');"><center>UCC AIMS</center></h4>
+                <center><img src="images/img/UCC_Portal.PNG" style="cursor:pointer" title="Click to proceed UCC AIMS" onclick="window.open('http://112.199.44.162/ucc/registrar/');"/>
+                <small><br/>University of Caloocan City <br/>Academic Information Management System</small>
+                </center>
+                <div class="solidline"></div>
+                
+				
+            <center><img src="images/img/2ndSemEnrollment.png" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(18, 18)"/></center>
+            <div class="solidline"></div>
+            <center><img src="images/img/alumniconnect.jpg" data-toggle="modal"  data-target="#Academics_Detail" onClick="show_form()"/></center>
+            <div class="solidline"></div>
+            <center><img src="images/img/Special_Announcement.jpg" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(15, 15)"  /></center>
+            <div class="solidline"></div>
+            	
+            <h4><center>Events</center></h4>
+           	 <div class="row">
+                    <div class="col-lg-24">
+                        <h5 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(17, 17)">Industrial-Organizational Psychology Convention<br/><small>Application of IO Psychology to its finest</small></h5>
+                         <center><img src="images/Events/IO_Psychology_thumb.png"  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(17, 17)"/><br/>
+                          <small  onClick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSc5CYpGBIIRfF4zk_8lHT_Y_THYcipiGzJYE8ke2vcX5FpDyA/viewform');"><u>Click Here to REGISTER</u></small>
+                          </center>
+                          <a  class="btn btn-default margin_top text-right"  style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(17, 17)"><small>Read More</small></a><br/>
+                    </div>              
+              </div>
+            
+                <div class="row">
+                    <div class="col-lg-24">
+                        <h5 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(3, 3)">1st CAMANAVA Conference on Collegiate Campus Journalism<br/><small>"Shifting Structure: Federalism and Journalism at the Crossroads"</small></h5>
+                         <center><img src="images/Events/Coference.png"  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(3, 3)"/><br/>
+                         
+                          </center>
+                          <a  class="btn btn-default margin_top text-right"  style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(3, 3)"><small>Read More</small></a><br/>
+                    </div>              
+                </div>
+           
+              
+             <div class="solidline"></div>
+             <div class="text-center">
+                
+              </div>
+                <div  id="news_archive" >
+             		<center><img src="images/img/News_Archive.jpg" /></center>
+                    <div style="height:500px;overflow-y:auto;">
+                        <table class="table table-bordered table-condensed text-left table-hover">
+						    <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(22,22)"><h5><b>UNIVERSITY ENTRANCE EXAMINATION PASSERS <br/><small>APRIL 30, 2017</small></b></h5></td><tr>
+							<tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(0, 0)"><h5><b> THE LICENSURE EXAMINATION FOR PROFESSIONAL TEACHERS PASSERS ELEMENTARY EDUCATION<br/><small>(SEPETEMBER 2015 & MARCH 2016)</small></b></h5></td><tr>
+							<tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(1, 1)"><h5><b> THE LICENSURE EXAMINATION FOR PROFESSIONAL TEACHERS PASSERS SECONDARY EDUCATION<br/><small>(SEPETEMBER 2015 & MARCH 2016)</small></b></h5></td><tr>
+						    <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(2, 2)"><h5><b> MOBILE CHALLENGE ASIA PACIFIC Philippine Finals<br/><small>Top 20 Finish by UCC CSD</small></b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(13, 13)"><h5><b>HAZEL: An Inspiration that was…</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(6, 6)"><h5><b>ITS WHITE DRAGONS AGAIN</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(8, 8)"><h5><b>North Tigers, South Educators owe limelight</b></h5></td><tr>
+							<tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(7, 7)"><h5><b>Orange Tigers, Green Dragons showcase their keenness</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(10, 10)"><h5><b>5K Each For CPA Exam Passers</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(9, 9)"><h5><b>The Show Must Go On</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(12, 12)"><h5><b>Korean Delegates Sojourn in UCC</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(11, 11)"><h5><b>UCC–JPIA, Top Notched at National Title</b></h5></td><tr>
+                            <tr><td  data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(14, 14)"><h5><b>A Perfect Combination</b></h5></td><tr>
+							<tr ><td data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(5, 5)"><h5><b>UCC lands a spot on the top ten IT schools in the Philippines</b></h5></td><tr>
+						</table>
+                    </div>
+                    
+                </div>
+              <div class="solidline"></div>
+                
+              	<div class="text-center">
+                <h3 class="text-center">Links</h3>
+                <table class=" table-condensed">
+                <tr onClick="window.open('http://www.caloocancity.gov.ph/')">
+                	<td>
+              		<img src="images/img/caloocan.png"/>
+       		  		</td>
+                    <td>
+                    	<h5>Caloocan City <br/><small>Official Website</small></h5>
+                    </td>
+                </tr>
+                <tr onClick="window.open('http://www.ched.gov.ph/')">
+                	<td>
+              		<img src="images/img/ched.PNG"/>
+       		  		</td>
+                    <td>
+                    	<h5>Commission on Higher Education  <br/><small>Official Website</small></h5>
+                    </td>
+                </tr>
+                 <tr  onClick="window.open('http://www.pagasa.dost.gov.ph/')">
+                	<td>
+              		<img src="images/img/pagasa.png"/>
+       		  		</td>
+                    <td>
+                    	<h5 title="Philippine Atmospheric Geophysical and Astronomical Services Administration">PAGASA<br/><small>Official Website</small></h5>
+                    </td>
+                </tr>
+                </table>
+                </div>
+
+    	</div>
+       
+       
+        <div class="col-lg-19">
+             <h3><center>News</center></h3>
+             <!--2017-->
+                
+            <!--News Item-->
+            	<div class="row">
+                	<!--title-->
+                    <h2 class="text-center" >
+                          PASSERS OF UCC COLLEGE OF LAW<br/><small>ENTRANCE EXAMINATION 2017</small>
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/collegeoflaw.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                    	 <div class="col-lg-12" >
+                           
+                            <ul style="list-style:none">
+								<li>1. ARTIDA, MAXIMO S.</li>
+								<li>2. BABARAN, JESUSO C.</li>
+								<li>3. BELLEN SHEENA HAZEL R.</li>
+								<li>4. BOOK, RANDY D.</li>
+								<li>5. BUGHAO, ROFEL D.C.</li>
+                            </ul>
+                            </div>
+                            <div class="col-lg-12">
+                           
+                            <ul style="list-style:none">
+								<li>6. CALAYAG, ALVIN A.</li>
+								<li>7. CAMATA, CRIZELLE JOY S.</li>
+								<li>8. DAMIAN, ROBERTO JR K.</li>
+								<li>9. DELE SERNA, ALBERTO D.</li>
+								<li>10. EVANGELISTA, RICARDO JR K.</li>
+                            </ul><br/>
+							 <a  class="btn btn-default margin_top" style="float:right" onclick="window.open('downloads/collegeoflaw.pdf');">View More</a>
+                            
+                            </div>
+
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->  
+			 
+			 <!--News Item-->
+            	<div class="row">
+                <!--title-->
+                    <h2 class="text-center" >
+                          THE LICENSURE EXAMINATION FOR PROFESSIONAL TEACHERS PASSERS<br/><small>( MARCH 2017)</small>
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/passers2017.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                        <!--Content-->
+                            <div class="col-lg-12" >
+                            <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(23, 23)">TEACHERS- ELEMENTARY </h3>
+                            
+                            <ol>
+                                <li>AGENER, MARY JEAN DONOSO</li>
+                                <li>AMTO,JUNALYN IGCALINOS</li>
+                                <li>APOLONIO MA. ELLEN ROSE BILLANO</li>
+                                <li>ATENDIDO, ALYASSA RUBY CABATINGAN</li>
+                                <li>BALANGATAN, MONIQUE RICO</li>
+                            </ol>
+                           
+                            <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(23, 23)">View More</a>
+                            </div>
+                            <div class="col-lg-12">
+                            <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(24, 24)">TEACHERS- SECONDARY </h3>
+                            <!--   <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(1, 1)">TEACHERS- SECONDARY </h3>-->
+                            <ol>
+                                <li>ABAD, ISADORA TANSECO</li>
+                                <li>ABAGATNAN, SHERYL ALAJAR</li>
+                                <li>ABALLE, GLADYS RODEO</li>
+                                <li>ALO,JOENILO JR FERNANDEZ</li>
+                                <li>AMOGUIS, JADE FAJARDO</li>
+                            </ol><br/>
+							 <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(24, 24)">View More</a>
+                            
+                            </div>
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->
+			 
+             
+              <!--News Item-->
+            	<div class="row">
+                	<!--title-->
+                    <h2 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(21, 21)">
+                          THE LICENSURE EXAMINATION FOR CRIMINOLOGISTS PASSERS <br/><small>OCTOBER 2016</small>
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(21, 21)">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/crim2017.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                    	 <div class="col-lg-12" >
+                           
+                            <ul style="list-style:none">
+                               <li>1. ACABA, BYABN CARLO GALAY</li>
+                                <li>2. ACEBUCHE, ROMMEL FABALLA</li>
+                                <li>3.AFUNAY, BAYRON TAGUINOD</li>
+                                <li>4.AGLIONES, JERIC TOLENTINO</li>
+                                <li>5. ALINSUBAO, GENO JORGIO</li>
+                                <li>6. ALINSUG, JULIUS GET GANO</li>
+                            </ul>
+                            </div>
+                            <div class="col-lg-12">
+                           
+                            <ul style="list-style:none">
+                                <li>7.APOR, ROSEMARIE RAMOS</li>
+                                <li>8. APOSTOL, FEL MARC JAY MACEDA</li>
+                                <li>9. AQUINO, CHIRSTIAN JADE MANESE</li>
+                                <li>10. ARENAS, VIRGILIO JR CENTENO</li>
+                            </ul><br/>
+							 <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(21, 21)">View More</a>
+                            
+                            </div>
+
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->  
+              <!--News Item-->
+            	<div class="row">
+                <!--title-->
+                    <h2 class="text-center" >
+                          THE LICENSURE EXAMINATION FOR PROFESSIONAL TEACHERS PASSERS<br/><small>( SEPTEMBER 2016)</small>
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/let_passer_2017.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                        <!--Content-->
+                            <div class="col-lg-12" >
+                            <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(19, 19)">TEACHERS- ELEMENTARY </h3>
+                            <!--<h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(0, 0)">TEACHERS- ELEMENTARY </h3>-->
+                            <ol>
+                                <li>ABALETA, GLADYS PELIPADA</li>
+                                <li>ABUEJUELA,SOLITARIO DELA PENA</li>
+                                <li>ALCANTARA, MARY ROSE RAYMUNDO</li>
+                                <li>ALTERADO,MAY ANN CORPIN</li>
+                                <li>ARCHEVO,ELSBETH JOYCE MERZA</li>
+                            </ol>
+                           
+                            <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(19, 19)">View More</a>
+                            </div>
+                            <div class="col-lg-12">
+                            <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(20, 20)">TEACHERS- SECONDARY </h3>
+                            <!--   <h3 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(1, 1)">TEACHERS- SECONDARY </h3>-->
+                            <ol>
+                                <li>ABANTO,ARLENE MAGTALAS</li>
+                                <li>ACADEMIA, IMEE MIRAL</li>
+                                <li>AGGALUT, SELVINA ALCAIDE</li>
+                                <li>ALIGAN, REYNATO JIMENEZ</li>
+                                <li>ALMARIO, NINA CARMELA ARNIGO</li>
+                            </ol><br/>
+							 <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(20, 20)">View More</a>
+                            
+                            </div>
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->
+            
+             
+             
+             
+             
+             <!--End2017-->
+             <!--News Item-->
+            	<div class="row">
+                	<!--title-->
+                    <h2 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(16, 16)">
+                         UCC FACULTY AND STUDENTS JOINED EARTQUAKE DRILL
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(16, 16)">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/earthquake_drill.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                    	<!--Content-->
+                    	 <p style="text-indent:20px;">
+                   			The faculty members and students if University of Caloocan City from 7:00 am to 10:00am class participated an Earthquake Drill at the UCC covered court on September 28, 2016. The event, a requirement to the National Earthquake Drill of National Disaster Risk Reduction Management ( NDRRM ), was organized by Dr. Marilyn T. De Jesus - Vice President for Administration, Dr. Josefina Dimantal - Asistant-Vice President for Administration and Prof. Rey H. Jetajobe - Campus Administrator UCC South Campus...
+
+                    	</p>
+                    	<a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(16, 16)">View More</a> 
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->  
+              <!--News Item-->
+            	<div class="row">
+                	<!--title-->
+                    <h2 class="text-center" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(4, 4)">
+                          10 UCC PSYCHOLOGY GRADUATES PASS THE PRC PSYCHOMETRICIAN BOARD EXAMINATION 2016
+                    </h2>
+                    <!--end of title-->
+                    <div class="col-sm-8" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(4, 4)">	
+                      <!--thumbnail-->  <center><img src="images/News/thumbnails/Psychomet.png" /></center>
+                    </div>
+                    <div class="col-sm-16 acad_info" >
+                    	<!--Content-->
+                    	 <p style="text-indent:20px;">
+                   			The Professional Regulation Commission has released the results of this year’s Licensure Examination for Psychometricians (RPm).  From last year’s 19.05% passing performance, Psychology graduates of our university successfully earned a 47.62% overall performance in this year’s board.  “This staggering 200% increase in our passing performance is a strong indicator of academic excellence and industry-readiness of our graduates,” says Dr. Bernadette B. Enriquez, College of Liberal Arts and Sciences Dean and concurrent Head of the Psychology and Behavioral Science Department...
+                    	</p>
+                    	<a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="Disp_News_Info(4, 4)">View More</a> 
+                    </div>
+               </div>
+               <div class="solidline"></div>
+              <!--End of News Item-->
+        </div>
+	</div>
+</div>
+</section> <!-- end of News -->
+<div class="container">
+    <div class="solidline"></div>
+</div><!-- solid line -->
+
+<section id="administration">
+    <div class="container">
+        <div class="row">
+            <h1>University Officials</h1>
+        </div>
+        <div class="row">
+        	<div class="col-lg-12 text-center">
+                <h3 class="text-center">BOARD OF REGENTS</h3>
+                	<img src="images/Board/mayor.png"/>
+                    <h4>Hon. Oscar G. Malapitan<br/> <small>City Mayor / Chairman, Board of Regents</small></h4>
+                     <img src="images/Board/salazar.png" />
+                    <h4>Atty. Rene Richard A. Salazar<br/>  <small>University President / Vice Chairman, B.O.R</small></h4>
+                    <img src="images/Board/fnone.png"/>
+                    <h4>Hon. Karina Teh 	<br/> <small>Chairperson, Committee on Education / Member, B.O.R</small></h4>
+                    <img src="images/Board/fnone.png"/>
+                    <h4>Dr. Cecille G. Carandang	<br/> <small>Superintendent, Division of City Schools / Member, B.O.R</small></h4>
+                   <img src="images/Board/jetajobe.png"/>
+                     <h4>Prof. Rey H. Jetajobe	<br/> <small>President, UCC Faculty and Employees Assn. Inc.</small></h4>
+                    <img src="images/Board/macaraeg.png"/>
+                    <h4>Dr. Teodoro A. Macaraeg Jr.	<br/> <small>President, UCCAAI / Member, B.O.R</small></h4>
+                     <img src="images/Board/osete.png"/>
+                    <h4>Mr. Ian Osete<br/> <small>President, SSC / Member, B.O.R</small></h4>
+                    <img src="images/Board/kho.png"/>
+                    <h4>Mr. Frank Koh	<br/> <small>Former President, FCCC Caloocan Chapter / Ex-Officio  Member, B.O.R</small></h4>
+                     <img src="images/Board/vergara.png"/>
+                     <h4>Atty. Emmanuel Emilio P. Vergara	<br/> <small>Board Secretary</small></h4>
+                     <img src="images/Board/vera.png"/>
+                     <h4>Atty. Roderick Vera	<br/> <small>Board Asst. Secretary</small></h4>
+					
+
+            </div>
+        	<div class="col-lg-12 text-center">
+            <h3 >EXECUTIVE OFFICES</h3>
+                <img src="images/Board/salazar.png" />
+                <h4>Atty. Rene Richard A. Salazar<br/> <small>University President</small></h4>
+                <img src="images/Board/chavez.png" />
+                <h4>Dr. Cesar B. Chavez	 <br/> <small>Executive Vice President</small></h4>
+                <img src="images/heads/Julianes.png" />
+                <h4>Dr. Melchor S. Julianes<br/> <small>Vice President for Student Affairs <br/>/ University Registrar , South Campus</small></h4>
+                <img src="images/Board/santos.png" />
+                <h4>Ms. Christine Santos	<br/> <small>Vice President for Finance</small></h4>
+                <img src="images/Board/bautista.png" />
+                <h4>Dr. Melinda M. Bautista	<br/> <small>Vice President for Planning</small></h4>
+                <img src="images/Board/deOcera.png" />
+                <h4>Dr. Rosario D. De Ocera	<br/> <small>Vice President for Extension Services</small></h4>
+                <img src="images/Board/feliciano.png" />
+                <h4>Dr. Joel P. Feliciano	<br/><small>Vice President for Academics Affairs / <br/>Dean, Graduate School</small></h4>
+                <img src="images/Board/enriquez.png" />
+                <h4>Dr. Lilian B. Enriquez	<br/> <small>Vice President for Research and Publication</small></h4>
+                <img src="images/Board/deJesus.png" />
+                <h4>Prof. Marilyn T. De Jesus	<br/> <small>Vice President for Administration</small></h4>
+				<img src="images/Board/saragcon.png" />
+                <h4>Dr. Shirley V. Saragcon	<br/> <small>Dean, College of Business and Accountancy  </small></h4>
+                <img src="images/Board/prado.png" />
+                <h4>Dr. Ramona A. Prado<br/> <small>Dean, College of Education /<br/>Asst. Director, Budget and Finance Office</small></h4>
+                <img src="images/Board/bEnriquez.png" />
+                <h4>Dr. Bernadette B. Enriquez	<br/> <small>Dean, College of Liberal Arts and Sciences / <br/>Director, Cultural Affairs / Adviser, The New Crossroads </small></h4>				
+				<img src="images/Board/vera.png" />
+                <h4>Atty. Roderick Vera<br/> <small>Dean, College of Law  </small></h4>
+				<img src="images/Board/mnone.png" />
+                <h4>Engr.Wenald H. Lopez	<br/> <small>C.G.A.D. II / Executive Asistant for Special Projects</small></h4>
+                <img src="images/Board/reyes.png" />
+                <h4>Dr. Dionisio Reyes	<br/> <small>Campus Administrator, North Campus <br/>/ University Registrar , South Campus</small></h4>
+                <img src="images/Board/alejo.png" />
+                <h4>Mr. Ryan Alejo	<br/> <small>University Accountant</small></h4>
+                <img src="images/Board/marmolejo.png" />
+                <h4>Prof. Nomer Q. Marmolejo	<br/> <small>Director, Budget and Finance Office</small></h4>
+				<img src="images/Board/ocampo.png" />
+                <h4>Ms. Mercedita G. Ocampo <br/> <small>Director, Human Resources Management</small></h4>                
+				<img src="images/Board/macaraeg.png" />
+                <h4>Dr. Teodoro Macaraeg Jr.	<br/> <small>Director, Management Information System</small></h4>
+                <img src="images/Board/torrecampo.png" />
+                <h4>Dr. Robert C. Torrecampo	<br/> <small>Director, Research</small></h4>
+                <img src="images/Board/jetajobe.png" />
+                <h4>Prof. Rey H. Jetajobe	<br/> <small>Campus Administrator, South Campus / <br/> Adviser, Supreme Student Council</small></h4>
+                <img src="images/Board/dantay.png" />
+                <h4>Prof. Rodrigo M. Dantay, Jr.	<br/> <small>Director, Student Affairs for North Campus / <br/> Guidance Counselor, North Campus / <br/> Campus Administrator, Camarin Campus</small></h4>
+                <img src="images/Board/delaCruz.png" />
+                <h4>Dr. Jennifer G. Dela Cruz	<br/> <small>Director, Sports Development</small></h4>
+                <img src="images/Board/villegas.png" />
+                <h4>Dr. Helen O. Villegas	<br/> <small>Program Coordinator, Scholarship</small></h4>
+               <!-- <img src="images/Board/david.png" />
+                <h4>Prof. Winnie David	<br/> <small>Director, National Service Training Program</small></h4>-->
+                <img src="images/heads/cipriano.png" />
+                <h4>Dr. Nenita B. Cipriano	<br/> <small>Asst. Campus Administrator, South Campus</small></h4>
+                <img src="images/heads/cabural.png" />
+                <h4>Prof. Joan Cabural	<br/> <small>Asst. Campus Administrator, VocTech Campus</small></h4>
+                <img src="images/heads/saenz.png" />
+                <h4>Prof. Ma. Cecilia M. Saenz	<br/> <small>Guidance Counselor, South Campus</small></h4>
+				<img src="images/Board/talino.png" />
+                <h4>Mr. Julius Talinio	<br/> <small>University Librarian, South Campus</small></h4>
+                <img src="images/heads/francisco.png" />
+                <h4>Prof. Decina M. Francisco	<br/> <small>University Librarian, North Campus</small></h4>
+           </div>
+            
+        </div>
+        <div class="solidline"></div>
+	</div>
+</section>
+
+<section id="academics">
+    <div class="container">
+        <div class="row" >
+            <h1>Academics</h1>
+        </div>
+        <div style=" width:20%; float:left;">
+			<center>
+				<img class="img-responsive"  style="height:200px;" src="images/icon_image/Liberal_Arts_Temp_Icon.PNG" alt="Liberal Arts and Science"  data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Liberal')"/>
+				<h4 data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Liberal')"><b>COLLEGE OF LIBERAL ARTS AND SCIENCES</b></h4>
+			</center><br/>
+				<ul style="width:100%;margin-left:-20px; list-style:none; cursor:pointer; font-size:18px;">
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(0,3,1,0,33)"><small>BS Computer Science</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(1,3,2,0,34)"><small>BS Information System</small> </li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(2,3,35,0,36)"><small>BS Information Technology</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(2,3,37,0,38)"><small>BS Entertainment and Multimedia Computing</small></b></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(4,1,4,0,0)"><small>BS Mathematics</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(5,2,5,6,0)"><small>BS Psychology</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(6,1,7,0,0)"><small> BS Criminology</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(7,2,8,9,0)"><small>Bachelor of Public Administration</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(25,1,31,0,0)"><small>Bachelor of Public Administration<br/>(SPECIAL PROGRAM)</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(8,1,10,0,0)"><small>AB Communication</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(9,1,11,0,0)"><small>AB Political Science</small></li>
+					<li class="hover_list" data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(10,1,12,0,0)"><small>AB Behavioral Science</small></li>
+				</ul>
+		</div>
+		<div style=" width:20%;float:left">
+			<center>
+				<img class="img-responsive" data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Business')" style="height:200px;" src="images/icon_image/Business_Accountancy_Temp_Icon.PNG" alt="Business Accountancy" />
+				<h4 data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Business')"><b>COLLEGE OF BUSINESS AND ACCOUNTANCY</b></h4>
+				</center><br/>
+				<ul style="width:100%;list-style:none;margin-left:-20px;  cursor:pointer; font-size:18px;">
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(15,1,19,0,0)"><small>BS Accounting Technology </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(16,1,20,0,0)"><small>BS Accountancy </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(17,2,21,30,0)"><small>BS Tourism </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(24,1,29,0,0)"><small>BS Hotel and Restaurant Management</small></li> 
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(18,1,22,0,0)"><small>BSBA Financial Management</small></li> 
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(19,1,23,0,0)"><small>BSBA Marketing Management </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(20,1,24,25,0)"><small>BS Entrepreneurial Management </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(21,1,26,0,0)"><small>BSA Human and Resources Development Management </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(22,1,27,0,0)"><small>BS Office Administration </small></li>
+					<li class="hover_list"  data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(23,1,28,0,0)"><small>Computer Secretarial </small></li>
+				</ul>
+			
+				
+		</div>
+		<div  style=" width:20%;float:left">
+			<center>
+				<img class="img-responsive" data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Education')" style="height:200px;" src="images/icon_image/Education_Temp_Icon.PNG" alt="Education" />
+				<h4 data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Education')"><b>COLLEGE OF EDUCATION</b></h4>				
+			</center><br/><br/>
+				<ul style="width:100%; margin-left:-20px;  list-style:none;cursor:pointer; font-size:18px; ">
+					 
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(11,1,14,0,0)"><small>BEED EARLY CHILDHOOD EDUCATION </small></b>
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(27,1,14,0,0)"><small>BEED SPECIAL EDUCATION </small></b>
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(12,1,15,0,0)"><small>BSE TLE </small></b>
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(13,2,16,17,0)"><small>BSE SCIENCE</small></b>
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(14,1,18,0,0)"><small>BSE ENGLISH</small></b>
+					<li class="hover_list"   data-toggle="modal" data-target="#Academics_Detail" onClick="course_info(26,1,18,0,0)"><small>BSE ENGLISH-CHINESE</small></b>
+					<li class="hover_list"   ><small>Certificate in Professional Education</small></b>
+					<li class="hover_list"  ><small>Elementary | </small><small> Secondary |</small>  <small>P.E.</small></b>
+
+				<ul>
+			
+		</div>
+		<div  style=" width:20%;float:left">
+			<center>
+				<img class="img-responsive" data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Graduate')" style="height:200px;" src="images/icon_image/Graduate_Course_Temp_Icon.PNG" alt="Graduate Studies" />
+				<h4  data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Graduate')"><b>GRADUATE SCHOOL</b></h4>
+			</center><br/><br/>
+				<ul style="width:100%;margin-left:-20px;  list-style:none;cursor:pointer; font-size:18px; ">
+					 <li class="hover_list"   ><small> Doctor of Public Administration</small></b>
+					 <li class="hover_list"  ><small> PhD Education Management</small></b>
+					 <li class="hover_list"  ><small> Master in Public Administration</small></b>
+					 <li class="hover_list"  ><small> Master in Business Administration</small></b>
+					 <li class="hover_list"  ><small> Master of Arts in Teaching in Early Grades</small></b>
+					 <li class="hover_list"  ><small> Master of Arts in Teaching Science</small></b>
+					 <li class="hover_list"  ><small> MAED-EM</small></b>
+					 <li class="hover_list"  ><small> MS Criminology </small></b>
+				<ul>
+		</div>
+		<div  style=" width:20%;float:left">
+			<center>
+				<img class="img-responsive" style="height:200px;" src="images/icon_image/College_of_Law_Temp_Icon.png" alt="college of law" data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Law')"  />
+				<h4  data-toggle="modal" data-target="#Academics_Detail" onClick="Showdetail('Law')"><b>COLLEGE OF LAW</b></h4>
+			</center>
+			<br/><br/>
+				<ul style="width:100%;list-style:none; margin-left:-20px; cursor:pointer; font-size:18px; ">
+					 <li class="hover_list"   ><small> Bachelor of LAWS </small></b>
+				</ul>
+		</div>
+    
+    </div>
+</section> <!-- end of academics -->
+<div class="container">
+    <div class="solidline"></div>
+</div><!-- solid line -->
+<!-- solid line -->
+
+
+<section id="about">
+    <div class="container">
+        <div class="row text-center">
+            <h1 >About University of Caloocan City</h1><br/>
+        </div>
+        
+        <div class="row">          
+            <div class="col-md-1"></div>	
+            <div class="col-md-5 col-sm-7 col-xs-24">
+                <img src="images/ucc_logo.png" alt="image 1"/>
+                
+            </div>
+            <div class="col-md-1"></div>	
+            <div class="col-md-16">
+                <h2>History</h2>
+                <p>On July 1, 1971, the Secretary of Education authorized the first-year operation of the proposed Caloocan City Community College. For this, Municipal Ordinance No. 1495 appropriated the amount of P23,400.00. Its purpose was to implement the national development goal which assures the maximum participation of all people in the attainment and enjoyment of the benefits of growth and provide quality educational opportunities to its indigent but deserving constituents.</p><p>
+On June 22, 1972, the College was authorized to open the second year of the general education course and the one-year secretarial on a P35,100 city budget.</p><p>
+On June 7, 1973 the secretary of Education approved the third year operation of the College with BS Industrial Education and the BS Business Technology appropriating therefore P36,760 (Mun. Ord. Nos. 2020 and 2140).</p><p>
+On March 25,1975 Ordinance No. 2295 provided for the charter of the renamed Caloocan City Polytechnic College. A fire gutted the High School PTA Building in 1984 forced the College to move to the nearby elementary school before transferring to the Sangandaan site. In June 1996, Buena Park and Camarin Annexes became operational, while Tandang Sora Annex at 7th avenue started classes in November, 2002.From an enrollment of 42 in 1971, the College had 3600 in 2000.</p><p>
+In June 1996, it offered two(2) masteral courses in public administration and in education. To make the College more responsive to the needs of City's constituents, government employees with 60 undergraduate units were enrolled as third year students in the special Bachelor in Public Administration in 1997.</p><p>
+On February 9, 2004, after 33 long years, Municipal Ordinance No. 0379 converted the Caloocan City Polytechnic college into the full-fledged University of Caloocan City.</p>
+                
+            </div>
+        </div><!-- end of row -->
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-md-1"></div>	
+            <div class="col-md-5 col-sm-7 col-xs-24">
+            
+            </div>
+            <div class="col-md-1"></div>	
+            <div class="col-md-16">
+                <h2>Vision</h2>
+                <p>
+				A quality higher education institution imbued with relevant knowledge, skills and values for the attainment of community driven, industry sensitive, environmentally conscious, resilient and globally competitive, Academicsally focused citizens for the service of Caloocan City.
+                </p>	
+               
+            </div>
+        </div><!-- end of row -->
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-md-1"></div>	
+            <div class="col-md-5 col-sm-7 col-xs-24">
+            
+            </div>
+            <div class="col-md-1"></div>	
+            <div class="col-md-16">
+                <h2>Mission</h2>
+                <p>
+				To maintain and support an adequate system of tertiary education that will help promote the economic growth of the country, strengthen the character and well-being of its graduates as productive members of the community.
+				</p>	
+               
+            </div>
+        </div>
+          <div class="clear"></div>
+        <div class="row">
+            <div class="col-md-1"></div>	
+            <div class="col-md-5 col-sm-7 col-xs-24">
+            
+            </div>
+            <div class="col-md-1"></div>	
+            <div class="col-md-16">
+                <h2>Goal</h2>
+				
+                <ul>
+                    <li><p>To attain quality instruction and high level of teaching competency among the faculty members.</p></li>
+                    <li><p>To provide priority programs that are relevant to community development and concern for the environment.</p></li>
+                    <li><p>To strengthen linkages between the university and industry partners and professional organization.</p></li>
+                    <li><p>To determine the opportunities provided by the university to develop students’ full potential, skills and talents to make them competitive in the labor force in the city, in the national and global community as well.</p></li>
+                    <li><p>To develop more immersion programs for students the will produce graduates with increased self-esteem, confidence and resiliency.</p></li>
+                    <li><p>To intensify student involvement and Academics leadership within the university and in the local and international sphere.</p></li>
+                    <li><p>To embark on research undertaking, curricular enhancement, community development, environmental consciousness, industry sensitivity that significantly affect the academe.</p></li>
+                </ul>
+               
+            </div>
+        </div><!-- end of row -->
+        <!-- <div class="row">
+            <div class="col-md-1"></div>	
+            <div class="col-md-5 col-sm-7 col-xs-24">
+            
+            </div>
+            <div class="col-md-1"></div>	
+            <div class="col-md-16">
+                <h2  data-toggle="modal" data-target="#Academics_Detail" onClick="show_handbook()">Hand Book</h2>
+                <p>The Handbook for Students outlines the standards that University of Caloocan City (UCC) 
+                holds and expects of its students inside and outside the classroom. 
+                It provides for the academic and disciplinary rules that apply to everyone in all UCC campuses. 
+                It defines the mission statement of the University, the students’ rights, duties, privileges, 
+                responsibilities and obligations to guide the UCC community....</p>
+                <br/>
+                <a  class="btn btn-default margin_top" style="float:right" data-toggle="modal" data-target="#Academics_Detail" onClick="show_handbook()">View More</a>
+                
+                
+            </div>
+        </div><!-- end of row -->
+    </div> 
+</section><!-- end of about -->
+
+<div class="container">
+    <div class="solidline"></div>
+</div>
+
+<div class="container">
+    <div class="solidline"></div>
+</div><!-- solid line -->
+<section id="contact">
+    <div class="container">
+        <div class="row" id="contact_gray_wap">
+            <div class="col-md-24 col-sm-24">
+                <h1 class="margin_top">Contact</h1>
+            </div>
+            <div class="col-md-24 col-sm-24">
+                <center>
+                	<img src="images/ucc_map.png" style="width:100%" />
+                </center>
+            </div>
+            <div class="col-md-13 col-sm-18 col-sm-push-1">
+                <p><br/>
+                    <span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp; Biglang Awa St Cor 11th Ave Catleya, Caloocan, 1400 Metro Manila, Philippines<br />
+                    <span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp; Tel: +632-3106581 / +632-3106855<br />
+                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp; Email: admin@ucc-caloocan.edu.ph<br />
+                    <span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp; Website: www.ucc-caloocan.edu.ph
+                </p>
+               <!-- <ul class="icon">
+                    <li><a href="#"><img src="images/icon_1.png" alt="Skype" /></a></li>
+                    <li><a href="#"><img src="images/icon_2.png" alt="Google+" /></a></li>
+                    <li><a href="#"><img src="images/icon_3.png" alt="Instagram" /></a></li>
+                    <li><a href="#"><img src="images/icon_4.png" alt="RSS" /></a></li>
+                </ul>-->
+            </div>
+            <div class="col-md-1"></div>
+            
+        </div> <!-- end of row -->
+        <div class="row" id="footer">
+            <div class="col-md-24" >
+                <p>Copyright &copy; 2016 UCC | <a rel="nofollow" href="#">University of Caloocan City Website Version 3.0 |  All Rights Reserved</a></p>
+               <center>Maintain by UCC-MIS</center>
+            </div>
+        </div><!-- end of footer -->
+    </div>	
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+</section><!-- end of contact -->
+
+<!-- Modal -->
+<div class="modal fade " id="Academics_Detail" tabindex="-1" role="dialog" >
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title"  >
+        	<center id="Info_Title">
+				
+            </center>
+        </h3>
+      </div>
+      <div class="modal-body" id="Info_Detail" style="font-size:16px;">
+
+      </div>
+      <div class="modal-footer">
+        	
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--HEAD COORD-->
+<div class="modal fade " id="Dean_Detail" tabindex="-1" role="dialog" >
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close"  data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">
+        	<center id="head_name"></center>
+        </h3>
+      </div>
+      <div class="modal-body"  id="head_detail" style="font-size:16px;">
+      
+	  </div> 
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Modal-->
+
+<-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANX69SpIgYs-BqSKACtYgi9Fcy1bKnD94&v=3.exp&amp;"></script>-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrollto.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.lightbox.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
